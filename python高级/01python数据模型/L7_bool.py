@@ -27,7 +27,7 @@ class Vector:
 
 if __name__ == "__main__":
     v = Vector(0, 3)
-    if v:                    # 调用__bool__
+    if v:                     # 调用__bool__
         print(abs(v))        # 3.0
 
 # 使用if或while语句，或者and\or\not运算符，为了判定一个对象v是真还是假，python会调用bool(v),这个函数只能返回True或者False

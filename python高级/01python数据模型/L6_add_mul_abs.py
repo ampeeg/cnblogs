@@ -18,7 +18,7 @@ class Vector:
     def __repr__(self):
         return 'Vector(%r, %r)' % (self.x, self.y)
 
-    def __abs__(self):                         # abs本来是绝对值，在二维向量中指模
+    def __abs__(self):                          # abs本来是绝对值，在二维向量中指模
         return hypot(self.x, self.y)
 
     def __add__(self, other):
