@@ -7,7 +7,7 @@
 
 
 
-
+# 参考官方网站 https://docs.python.org/3/reference/datamodel.html#special-method-names
 
 if __name__ == "__main__":
     pass
