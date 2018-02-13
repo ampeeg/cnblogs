@@ -1,0 +1,25 @@
+	                      列  表	  元  组	        说  明
+s.__add__(s2)	            ·	    ·	    s1 + s2 , 拼接
+s.__iadd__(s2)	            ·		        s1 += s2，就地拼接
+s.append(e)                 ·		        在尾部添加一个新元素
+s.clear()	                ·		        删除所有元素
+s.__contains__(e)          	·	    ·	    s是否包含e
+s.copy()	                ·		        列表的浅复制
+s.count(e)                 	·	    ·	    e在s中出现的次数
+s.__delitem__(p)	        ·		        把位于p的元素删除
+s.extend(it)	            ·		        把可迭代对象it追加给s
+s.__getitem__(p)	        ·	    ·	    s[p],获取位置p的元素
+s.__getnewargs__()		    ·	            在pickle中支持更加优化的序列化
+s.index(e)	                ·	    ·	    在s中找到元素e第一次出现的位置
+x.insert(p,e)           	·		        在位置p之前拆入e
+s.__iter__()	            ·	    ·	    获取s的迭代器
+s.__len__()	                ·	    ·	    len(s)，长度
+s.__mul__(n)	            ·	    ·	    s * n，n个s的重复拼接
+s.__imul__(n)	            ·		        s *= n，就地城府拼接
+s.__rmul__(n)	            ·	    ·	    n * s,反向拼接*
+s.pop([p])	                ·		        删除最后或者是位于p的元素，并返回它的值
+s.remove(e)	                ·		        删除s中第一次出现的e
+s.reverse()	                ·		        就地把s的元素倒序排列
+s.__reversed__()           	·		        返回s的倒序迭代器
+s.__setitem__(p,e)	        ·		        s[p]=e，把元素e放在位置p，替代已经在那个位置的元素
+s.sort([key], [reverse])	·		        就地对s中的元素进行排序，可选的参数有key和是否倒序reverse
