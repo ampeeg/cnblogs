@@ -12,7 +12,7 @@
         * __abs__、__add__和__mul__
         * __bool__
 
-###  2018.2.13    http://www.cnblogs.com/liao-sir/p/8432259.html
+###  2018.2.13   http://www.cnblogs.com/liao-sir/p/8432259.html
      提交文件夹：02python内置序列类型
         * 序列类型分类：
          （1）容器序列、扁平序列
@@ -23,3 +23,14 @@
         * 切片
         * 排序（list.sort方法和sorted函数）
         * bisect
+
+###  2018.2.26   http://www.cnblogs.com/liao-sir/p/8470636.html
+    提交文件夹：03python字典和集合（泛映射）
+        * 可散列类型
+        * 泛映射类型
+        * 字典
+         （1）字典推导式
+         （2）处理不存在的键
+         （3）字典的变种
+        * 集合
+        * 映射的再讨论
