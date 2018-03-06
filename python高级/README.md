@@ -45,9 +45,13 @@
         * 标准化Unicode字符串
         * Unicode文本排序
 
-###  2018.3.     http://www.cnblogs.com/liao-sir/p/8491362.html
+###  2018.3.2    http://www.cnblogs.com/liao-sir/p/8491362.html
     提交文件夹05python函数（一等对象）
         * 一等对象
         * 普通函数 & 高阶函数
         * 可调用对象 & 自定义可调用类型
         * 函数注解
+
+###  2018.3.6   http://www.cnblogs.com/liao-sir/p/8493915.html
+    提交文件夹06用一等函数实现设计模式
+        * 经典的"策略"模式
